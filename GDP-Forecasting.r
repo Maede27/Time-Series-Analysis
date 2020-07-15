@@ -1,4 +1,4 @@
-Data<-read.csv("C:\\Users\\mehr6\\Desktop\\time series\\final_data.csv", header = TRUE)
+Data <- read.table(file.choose(), sep =",", header = TRUE)
 # split date column into three separate columns(month,day,year) and then merge them into the original data-frame 
 realdate<-as.Date(Data$date,format="%d-%m-%Y")
  dfdate <- data.frame(date=realdate)

@@ -3,7 +3,7 @@ Gross Domestic Product (GDP) is one of the most widely used measures of an econo
 GDP allows policymakers, economists and business to analyze the impact of economic shocks such as a spike in oil price, as well as tax and spending plans, on the overall economy and on specific components of it. Therefore, the analysis of GDP fluctuations during the time is mandatory for governments in order to predict the future condition of their economy.
 # ARIMA
 ARIMA stands for auto-regressive integrated moving average and is specified by these three order parameters: (p, d, q). An auto regressive (AR(p)) component is referring to the use of past values in the regression equation for the series Y. The auto-regressive parameter p specifies the number of lags used in the model . The d represents the degree of differencing in the integrated (I(d)) component. Differencing a series involves simply subtracting its current and previous values d times. Often, differencing is used to stabilize the series when the stationarity assumption is not met. A moving average (MA(q)) component represents the error of the model as a combination of previous error terms.
-# Analysis of stationarity
+# Analysis of Stationarity
 A stationary process is a stochastic process whose parameters such as mean and variance do not change over time. Before fitting ARIMA model to the data, the stationarity of
 the data must be checked.
 # ACF and PACF Plots
